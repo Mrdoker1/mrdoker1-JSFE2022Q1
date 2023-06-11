@@ -1,0 +1,171 @@
+main {
+    .popup-background {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(41, 41, 41, 0.6);
+        cursor: pointer;
+        &.show {
+            display: flex;
+        }
+        .popup-container {
+            margin-left: 5rem;
+            position: relative;
+            width: 95rem;
+            height: 55rem;
+            button {
+                &.popup-button {
+                    padding: 2.5rem 2.5rem;
+                    position: absolute;
+                    right: 1rem;
+                    border: 0.2rem solid $color-primary;
+                    border-radius: 50%;
+                    background: url(../../assets/icons/icon-close.svg) no-repeat 1.9rem 1.9rem;
+                    &.close {
+                        cursor: pointer;
+                        background-color: $color-primary;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $color-primary;
+                    }
+                }
+            }
+            .popup-window {
+                display: flex;
+                margin-top: 5rem;
+                width: 90rem;
+                height: 50rem;
+                background-color: $color-light-s;
+                border-radius: 0.9rem;
+                overflow: hidden;
+                cursor: default;
+                .popup-image {
+                    height: 100%;
+                }
+                .popup-content {
+                    margin-top: 5rem;
+                    margin-left: 2.9rem;
+                    max-width: 35rem;
+                    h3,
+                    h4 {
+                        color: black;
+                    }
+                    .popup-content-subtitle {
+                        margin-top: 1rem;
+                        font-size: 2rem;
+                        line-height: 115%;
+                        letter-spacing: 0.12rem;
+                    }
+                    .popup-content-description {
+                        margin-top: 4rem;
+                        font-size: 1.5rem;
+                        line-height: 115%;
+                        letter-spacing: 0.09rem;
+                    }
+                    .popup-list {
+                        margin-top: 4rem;
+                        padding-left: 1.5rem;
+                        font-size: 15px;
+                        line-height: 125%;
+                        letter-spacing: 0.09rem;
+                        .popup-list-item {
+                            margin-top: 1rem;
+                            b {
+                                font-weight: bold;
+                            }
+                            &::marker {
+                                color: $color-primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+    main {
+        .popup-background {
+            &.show {}
+            .popup-container {
+                width: 68rem;
+                height: 43rem;
+                .popup-button {
+                    &.close {}
+                    &:hover {}
+                }
+                .popup-window {
+                    width: 63rem;
+                    height: 38rem;
+                    .popup-image {}
+                    .popup-content {
+                        margin-top: 1rem;
+                        margin-left: 1rem;
+                        max-width: 26rem;
+                        .popup-content-subtitle {}
+                        .popup-content-description {
+                            margin-top: 2rem;
+                            font-size: 1.3rem;
+                            line-height: 110%;
+                            letter-spacing: 0.075rem;
+                        }
+                        .popup-list {
+                            margin-top: 2rem;
+                            line-height: 115%;
+                            letter-spacing: 0.09rem;
+                            .popup-list-item {
+                                margin-top: 0.6rem;
+                                &::marker {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    main {
+        .popup-background {
+            &.show {}
+            .popup-container {
+                margin-left: 3rem;
+                width: 27rem;
+                height: auto;
+                .popup-button {
+                    right: 0;
+                    &.close {}
+                    &:hover {}
+                }
+                .popup-window {
+                    width: 24rem;
+                    height: auto;
+                    .popup-image {
+                        display: none;
+                    }
+                    .popup-content {
+                        max-width: 22rem;
+                        .popup-content-subtitle {}
+                        .popup-content-description {}
+                        .popup-list {
+                            margin-top: 2.2rem;
+                            margin-bottom: 1rem;
+                            .popup-list-item {
+                                &::marker {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

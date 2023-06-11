@@ -1,0 +1,159 @@
+@import '../../css/globals.scss';
+@import '../../css/actions.scss';
+@import '../../css/header.scss';
+@import '../../css/footer.scss';
+@import '../../css/pet-card.scss';
+@import '../../css/popup.scss';
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 3.1rem 0 2.9rem;
+    background-color: $color-light-xl;
+    a {
+        text-decoration: none;
+    }
+    &.sticky {
+        margin: 3.1rem 0 2.9rem;
+        background: $color-light-xl;
+    }
+    .container {
+        .logo {
+            .logo-title {
+                color: $color-dark-l;
+            }
+            .logo-subtitle {
+                color: $color-dark-l;
+            }
+        }
+        .menu {
+            .list {
+                .list-item {
+                    .menu-link {
+                        color: $color-dark-l;
+                        &.active {
+                            color: $color-dark-3xl;
+                        }
+                    }
+                    .menu-link:hover {
+                        color: $color-dark-3xl;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    #friends {
+        background: $color-light-l;
+        .pets-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 8.2rem 0 10rem;
+            .pets-content-section-title {
+                color: $color-dark-l;
+                text-align: center;
+            }
+            .pets-content-section {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                margin-top: 4.5rem;
+                .pet-card {
+                    margin: 1.4rem 0 1.6rem;
+                }
+            }
+            .pets-content-section-buttons-container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 4.4rem;
+                width: 34rem;
+                button {
+                    &.pets-content-section-button {
+                        width: 5.2rem;
+                        height: 5.2rem;
+                        font-size: 2rem;
+                        line-height: 115%;
+                        border-radius: 50%;
+                        color: $color-dark-3xl;
+                        border: 0.2rem solid $color-primary;
+                        &:not(.button-inactive):hover {
+                            cursor: pointer;
+                            background-color: $color-primary;
+                        }
+                        &.button-active {
+                            background-color: $color-primary;
+                        }
+                        &.button-inactive {
+                            color: $color-dark-s;
+                            border-color: $color-dark-s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+    main {
+        #friends {
+            .pets-content {
+                margin: 8rem auto 7.3rem;
+                .pets-content-section-title {}
+                .pets-content-section {
+                    justify-content: center;
+                    margin-top: 1.5rem;
+                    max-width: 95rem;
+                    .pet-card {
+                        margin: 1.4rem 2.8% 1.6rem;
+                        &:nth-child(n + 7) {
+                            display: none;
+                        }
+                    }
+                }
+                .pets-content-section-buttons-container {
+                    margin-top: 2.4rem;
+                    button {
+                        &.pets-content-section-button {
+                            &.button-active {}
+                            &.button-inactive {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    main {
+        #friends {
+            .pets-content {
+                margin: 4rem auto;
+                .pets-content-section-title {}
+                .pets-content-section {
+                    margin-top: 2.9rem;
+                    max-width: 50rem;
+                    .pet-card {
+                        &:nth-child(n + 4) {
+                            display: none;
+                        }
+                    }
+                }
+                .pets-content-section-buttons-container {
+                    margin-top: 2.6rem;
+                    max-width: 30rem;
+                    button {
+                        &.pets-content-section-button {
+                            &.button-active {}
+                            &.button-inactive {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

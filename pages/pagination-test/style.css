@@ -1,0 +1,260 @@
+@import url("./assets/fonts/Arial/stylesheet.css");
+@import url("./assets/fonts/Georgia/stylesheet.css");
+@import url("./normalize.css");
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 3.5rem;
+  line-height: 130%;
+  letter-spacing: 0.21rem;
+  color: #545454;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  letter-spacing: 0.09rem;
+  color: #545454;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  font-weight: 400;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media screen and (max-width: 766px) {
+  h2,
+  h3 {
+    font-size: 2.5rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-align: center;
+  }
+}
+
+.pet-card {
+  min-width: 27rem;
+  min-height: 43.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.pet-card img {
+  -webkit-transition: -webkit-filter 0.2s ease-in-out;
+  transition: -webkit-filter 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
+}
+
+.pet-card .pet-card-image {
+  min-width: 27rem;
+  min-height: 27rem;
+}
+
+.pet-card:hover {
+  background-color: #FFFFFF;
+}
+
+.pet-card:hover .pet-card-button {
+  background-color: #F1CDB3;
+}
+
+.pet-card:hover img {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.pet-card .pet-card-title {
+  margin: 3.1rem 0 3rem;
+  font-size: 2rem;
+  letter-spacing: 0.12rem;
+  color: #545454;
+}
+
+.pet-card .pet-card-button {
+  margin-bottom: 3rem;
+  padding: 1.3rem 4.3rem;
+  font-size: 1.7rem;
+  line-height: 130%;
+  letter-spacing: 0.1rem;
+  color: #292929;
+  background-color: transparent;
+  border: 0.2rem solid #F1CDB3;
+  border-radius: 10rem;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.pet-card .pet-card-button:hover {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+
+main #friends {
+  background: #F6F6F6;
+}
+
+main #friends .pets-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8.2rem 0 10rem;
+}
+
+main #friends .pets-content .pets-content-section-title {
+  color: #545454;
+  text-align: center;
+}
+
+main #friends .pets-content .pets-content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+main #friends .pets-content .pets-content-section .pet-card {
+  margin: 1.4rem 0 1.6rem;
+}
+
+main #friends .pets-content .pets-content-section-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4.4rem;
+  width: 34rem;
+}
+
+main #friends .pets-content .pets-content-section-buttons-container button.pets-content-section-button {
+  width: 5.2rem;
+  height: 5.2rem;
+  font-size: 2rem;
+  line-height: 115%;
+  border-radius: 50%;
+  color: #292929;
+  border: 0.2rem solid #F1CDB3;
+}
+
+main #friends .pets-content .pets-content-section-buttons-container button.pets-content-section-button:not(.button-inactive):hover {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+
+main #friends .pets-content .pets-content-section-buttons-container button.pets-content-section-button.button-active {
+  background-color: #F1CDB3;
+}
+
+main #friends .pets-content .pets-content-section-buttons-container button.pets-content-section-button.button-inactive {
+  color: #CDCDCD;
+  border-color: #CDCDCD;
+}
+
+@media screen and (max-width: 1278px) {
+  main #friends .pets-content {
+    margin: 8.2rem auto 7.6rem;
+  }
+  main #friends .pets-content .pets-content-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1.5rem;
+    max-width: 95rem;
+  }
+  main #friends .pets-content .pets-content-section .pet-card {
+    margin: 1.4rem 2.8% 1.6rem;
+  }
+  main #friends .pets-content .pets-content-section .pet-card:nth-child(n + 7) {
+    display: none;
+  }
+  main #friends .pets-content .pets-content-section-buttons-container {
+    margin-top: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  main #friends .pets-content {
+    margin: 4.2rem auto;
+  }
+  main #friends .pets-content .pets-content-section {
+    margin-top: 2.9rem;
+    max-width: 50rem;
+  }
+  main #friends .pets-content .pets-content-section .pet-card:nth-child(n + 4) {
+    display: none;
+  }
+  main #friends .pets-content .pets-content-section-buttons-container {
+    margin-top: 2.6rem;
+    max-width: 30rem;
+  }
+}

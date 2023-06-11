@@ -1,0 +1,240 @@
+@import url("./assets/fonts/Arial/stylesheet.css");
+@import url("./assets/fonts/Georgia/stylesheet.css");
+@import url("./normalize.css");
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 3.5rem;
+  line-height: 130%;
+  letter-spacing: 0.21rem;
+  color: #545454;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  letter-spacing: 0.09rem;
+  color: #545454;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  font-weight: 400;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media screen and (max-width: 766px) {
+  h2,
+  h3 {
+    font-size: 2.5rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-align: center;
+  }
+}
+
+main .popup-background {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(41, 41, 41, 0.6);
+  cursor: pointer;
+}
+
+main .popup-background.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .popup-background .popup-container {
+  margin-left: 5rem;
+  position: relative;
+  width: 95rem;
+  height: 55rem;
+}
+
+main .popup-background .popup-container button.popup-button {
+  padding: 2.5rem 2.5rem;
+  position: absolute;
+  right: 1rem;
+  border: 0.2rem solid #F1CDB3;
+  border-radius: 50%;
+  background: url(../../assets/icons/icon-close.svg) no-repeat 1.9rem 1.9rem;
+}
+
+main .popup-background .popup-container button.popup-button.close {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+
+main .popup-background .popup-container button.popup-button:hover {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+
+main .popup-background .popup-container .popup-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+  width: 90rem;
+  height: 50rem;
+  background-color: #FAFAFA;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  cursor: default;
+}
+
+main .popup-background .popup-container .popup-window .popup-image {
+  height: 100%;
+}
+
+main .popup-background .popup-container .popup-window .popup-content {
+  margin-top: 5rem;
+  margin-left: 2.9rem;
+  max-width: 35rem;
+}
+
+main .popup-background .popup-container .popup-window .popup-content h3,
+main .popup-background .popup-container .popup-window .popup-content h4 {
+  color: black;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-content-subtitle {
+  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 115%;
+  letter-spacing: 0.12rem;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-content-description {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  line-height: 115%;
+  letter-spacing: 0.09rem;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-list {
+  margin-top: 4rem;
+  padding-left: 1.5rem;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0.09rem;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-list .popup-list-item {
+  margin-top: 1rem;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-list .popup-list-item b {
+  font-weight: bold;
+}
+
+main .popup-background .popup-container .popup-window .popup-content .popup-list .popup-list-item::marker {
+  color: #F1CDB3;
+}
+
+@media screen and (max-width: 1278px) {
+  main .popup-background .popup-container {
+    width: 68rem;
+    height: 43rem;
+  }
+  main .popup-background .popup-container .popup-window {
+    width: 63rem;
+    height: 38rem;
+  }
+  main .popup-background .popup-container .popup-window .popup-content {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    max-width: 26rem;
+  }
+  main .popup-background .popup-container .popup-window .popup-content .popup-content-description {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 110%;
+    letter-spacing: 0.075rem;
+  }
+  main .popup-background .popup-container .popup-window .popup-content .popup-list {
+    margin-top: 2rem;
+    line-height: 115%;
+    letter-spacing: 0.09rem;
+  }
+  main .popup-background .popup-container .popup-window .popup-content .popup-list .popup-list-item {
+    margin-top: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  main .popup-background .popup-container {
+    margin-left: 3rem;
+    width: 27rem;
+    height: auto;
+  }
+  main .popup-background .popup-container .popup-button {
+    right: 0;
+  }
+  main .popup-background .popup-container .popup-window {
+    width: 24rem;
+    height: auto;
+  }
+  main .popup-background .popup-container .popup-window .popup-image {
+    display: none;
+  }
+  main .popup-background .popup-container .popup-window .popup-content {
+    max-width: 22rem;
+  }
+  main .popup-background .popup-container .popup-window .popup-content .popup-list {
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+  }
+}
