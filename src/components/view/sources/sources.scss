@@ -1,0 +1,37 @@
+.sources {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: 100%;
+    overflow: auto;
+    align-items: center;
+    font: 300 1em 'Fira Sans', sans-serif;
+    .source__item {
+        display: flex;
+        justify-content: center;
+        background: none;
+        border: 2px solid #4357a7;
+        border-radius: 40px;
+        width: 100%;
+        font: inherit;
+        line-height: 1;
+        margin: 0.5em;
+        padding: 1em 2em;
+        color: #5474f3;
+        transition: 0.25s;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            font-weight: 400;
+            border: 2px solid #ffffff;
+            border-color: none;
+            background-color: white;
+            color: #000000;
+            transform: translateY(-0.25em);
+        }
+        .source__item-name {
+            font-weight: 400;
+            white-space: nowrap;
+        }
+    }
+}
