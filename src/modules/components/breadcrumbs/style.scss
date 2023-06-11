@@ -1,0 +1,18 @@
+@import '../../../variables.scss';
+
+.breadcrumbs{
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+        font: $cormorant-14-medium;
+        list-style-type: none;
+        color: $black-1;
+        li:first-child{
+            color: $grey-1;
+        }
+        li:not(:last-child)::after{
+            content: '/';
+        }
+    }
+}

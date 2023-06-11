@@ -1,0 +1,602 @@
+{
+    "en": {
+        "products": {
+            "1": {
+                "name": "Goldsmiths",
+                "price": 620,
+                "stock": 0,
+                "props": {
+                    "id": 1,
+                    "info": "This narrow ring is silver",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "2": {
+                "name": "Bird Earrings",
+                "price": 570,
+                "stock": 3,
+                "props": {
+                    "id": 2,
+                    "info": "It is engraved with a wrapped candy",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "3": {
+                "name": "Black Rings",
+                "price": 620,
+                "stock": -1,
+                "props": {
+                    "id": 3,
+                    "info": "It is designed in a classical style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "man",
+                    "type": "ring"
+                }
+            },
+            "4": {
+                "name": "Flower Rings",
+                "price": 210,
+                "stock": 3,
+                "props": {
+                    "id": 4,
+                    "info": "This ring is sewn from lemon-yellow leather",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "5": {
+                "name": "Star Earrings",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 5,
+                    "info": "It is designed in a style evocative of Baroque fashion",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "woman",
+                    "type": "earring"
+                }
+            },
+            "6": {
+                "name": "Flying Bee",
+                "price": 620,
+                "stock": -1,
+                "props": {
+                    "id": 6,
+                    "info": "It is designed in a whimsical style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "barrette"
+                }
+            },
+            "7": {
+                "name": "Wedding Rings",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 7,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "8": {
+                "name": "Scraped Rings",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 8,
+                    "info": "This ring is sewn from hot pink fabric",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "man",
+                    "type": "ring"
+                }
+            },
+            "9": {
+                "name": "Girl with Wolf",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 9,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "woman",
+                    "type": "brooch"
+                }
+            },
+            "10": {
+                "name": "Bug Brooch",
+                "price": 710,
+                "stock": 3,
+                "props": {
+                    "id": 10,
+                    "info": "This brooch is sewn from orange leather",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "11": {
+                "name": "Colorful Earring",
+                "price": 425,
+                "stock": 1,
+                "props": {
+                    "id": 11,
+                    "info": "It is designed in in a futuristic style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "12": {
+                "name": "Coil Earrings",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 12,
+                    "info": "It is designed in a steampunk style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "13": {
+                "name": "Mockingbird",
+                "price": 540,
+                "stock": 3,
+                "props": {
+                    "id": 13,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "14": {
+                "name": "Chicken Pin",
+                "price": 540,
+                "stock": 3,
+                "props": {
+                    "id": 14,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "unisex",
+                    "type": "barrette"
+                }
+            },
+            "15": {
+                "name": "Sleeping Sun",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 15,
+                    "info": "This gold earring is heart-shaped.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "16": {
+                "name": "Golden Cat",
+                "price": 420,
+                "stock": 3,
+                "props": {
+                    "id": 16,
+                    "info": "This gold pendant is bell-shaped.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "barrette"
+                }
+            },
+            "17": {
+                "name": "Sun Pin",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 17,
+                    "info": "It is designed in a style evocative of Art Deco aesthetics.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "18": {
+                "name": "Bear Pin",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 18,
+                    "info": "This pin is made of copper. It is engraved with a doll.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "19": {
+                "name": "Vivid Ring",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 19,
+                    "info": "This ring is woven from vivid orange and green straw.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "ring"
+                }
+            },
+            "20": {
+                "name": "Onion Pin",
+                "price": 380,
+                "stock": 3,
+                "props": {
+                    "id": 20,
+                    "info": "This brass pin is heart-shaped. It is designed in a style evocative of Art Deco aesthetics.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "21": {
+                "name": "Dandelion Pin",
+                "price": 140,
+                "stock": 3,
+                "props": {
+                    "id": 21,
+                    "info": "This wooden pin is a pointed ovoid. It is lime green in color.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            }
+        }
+    },
+    "ru": {
+        "products": {
+            "1": {
+                "name": "Золото",
+                "price": 620,
+                "stock": 0,
+                "props": {
+                    "id": 1,
+                    "info": "This narrow ring is silver",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "2": {
+                "name": "Bird Earrings",
+                "price": 570,
+                "stock": 3,
+                "props": {
+                    "id": 2,
+                    "info": "It is engraved with a wrapped candy",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "3": {
+                "name": "Black Rings",
+                "price": 620,
+                "stock": -1,
+                "props": {
+                    "id": 3,
+                    "info": "It is designed in a classical style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "man",
+                    "type": "ring"
+                }
+            },
+            "4": {
+                "name": "Flower Rings",
+                "price": 210,
+                "stock": 3,
+                "props": {
+                    "id": 4,
+                    "info": "This ring is sewn from lemon-yellow leather",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "5": {
+                "name": "Star Earrings",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 5,
+                    "info": "It is designed in a style evocative of Baroque fashion",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "woman",
+                    "type": "earring"
+                }
+            },
+            "6": {
+                "name": "Flying Bee",
+                "price": 620,
+                "stock": -1,
+                "props": {
+                    "id": 6,
+                    "info": "It is designed in a whimsical style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "barrette"
+                }
+            },
+            "7": {
+                "name": "Wedding Rings",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 7,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "woman",
+                    "type": "ring"
+                }
+            },
+            "8": {
+                "name": "Scraped Rings",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 8,
+                    "info": "This ring is sewn from hot pink fabric",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "man",
+                    "type": "ring"
+                }
+            },
+            "9": {
+                "name": "Girl with Wolf",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 9,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "woman",
+                    "type": "brooch"
+                }
+            },
+            "10": {
+                "name": "Bug Brooch",
+                "price": 710,
+                "stock": 3,
+                "props": {
+                    "id": 10,
+                    "info": "This brooch is sewn from orange leather",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "11": {
+                "name": "Colorful Earring",
+                "price": 425,
+                "stock": 1,
+                "props": {
+                    "id": 11,
+                    "info": "It is designed in in a futuristic style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "12": {
+                "name": "Coil Earrings",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 12,
+                    "info": "It is designed in a steampunk style",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "earring"
+                }
+            },
+            "13": {
+                "name": "Mockingbird",
+                "price": 540,
+                "stock": 3,
+                "props": {
+                    "id": 13,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "14": {
+                "name": "Chicken Pin",
+                "price": 540,
+                "stock": 3,
+                "props": {
+                    "id": 14,
+                    "info": "White Gold 1.20cttw Diamond Line",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "steel",
+                    "gender": "unisex",
+                    "type": "barrette"
+                }
+            },
+            "15": {
+                "name": "Sleeping Sun",
+                "price": 120,
+                "stock": 3,
+                "props": {
+                    "id": 15,
+                    "info": "This gold earring is heart-shaped.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "16": {
+                "name": "Golden Cat",
+                "price": 420,
+                "stock": 3,
+                "props": {
+                    "id": 16,
+                    "info": "This gold pendant is bell-shaped.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "barrette"
+                }
+            },
+            "17": {
+                "name": "Sun Pin",
+                "price": 620,
+                "stock": 3,
+                "props": {
+                    "id": 17,
+                    "info": "It is designed in a style evocative of Art Deco aesthetics.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "gold",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "18": {
+                "name": "Bear Pin",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 18,
+                    "info": "This pin is made of copper. It is engraved with a doll.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "19": {
+                "name": "Vivid Ring",
+                "price": 220,
+                "stock": 3,
+                "props": {
+                    "id": 19,
+                    "info": "This ring is woven from vivid orange and green straw.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "ring"
+                }
+            },
+            "20": {
+                "name": "Onion Pin",
+                "price": 380,
+                "stock": 3,
+                "props": {
+                    "id": 20,
+                    "info": "This brass pin is heart-shaped. It is designed in a style evocative of Art Deco aesthetics.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            },
+            "21": {
+                "name": "Dandelion Pin",
+                "price": 140,
+                "stock": 3,
+                "props": {
+                    "id": 21,
+                    "info": "This wooden pin is a pointed ovoid. It is lime green in color.",
+                    "description": "Dynamic and elusive abstraction and texture. Plays between the lines of chaos and serenity. Perfect fit for modern and contemporary styled interiors.",
+                    "part": "arms",
+                    "material": "silver",
+                    "gender": "unisex",
+                    "type": "brooch"
+                }
+            }
+        }
+    },
+    "pl": {
+        "products": {
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 0;
+    .catalog-wrapper{
+        max-width: inherit;
+        display: grid;
+        row-gap: 60px;
+        column-gap: 35px;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+        justify-content: start;
+    }
+    button.shadow{
+        margin: 40px auto;
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "roots": {
+        "products":{
+            "data": "./data/products.json",
+            "assets": {
+                "images": "./assets/img/products/",
+                "videos": "./assets/video/products/"
+            }
+        }
+    },
+    "language": {
+        "default": "ru"
+    },
+    "currency": {
+        "default": "£"
+    }
+}

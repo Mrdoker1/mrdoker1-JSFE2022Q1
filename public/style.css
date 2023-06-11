@@ -1,0 +1,851 @@
+/*!******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/global.scss ***!
+  \******************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/global.scss (1) ***!
+  \**********************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/product/style.scss ***!
+  \********************************************************************************************************************************************************************************************/
+.product {
+  min-width: 370px;
+  min-height: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product .product-image {
+  transition: 0.5s ease-in-out;
+  height: 370px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.product .product-image:hover {
+  filter: opacity(70%);
+}
+.product .product-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.product .product-wrapper .product-name {
+  font: normal 400 13px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.product .product-wrapper .product-info {
+  color: #65635F;
+  font: normal 400 14px/19px "Jost";
+}
+.product .product-wrapper .product-price {
+  font: normal 400 16px/24px "Jost";
+  letter-spacing: 1px;
+}
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/notification/style.scss ***!
+  \*************************************************************************************************************************************************************************************************/
+.notification-top {
+  transition: 0.1s linear;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: normal 400 16px/24px "Jost";
+  color: #F4F4F2;
+  background-color: #161412;
+  padding: 8px 20px;
+}
+.notification-top .notification-message {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.notification-top .close-icon {
+  transition: 0.1s linear;
+  filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+}
+.notification-top .close-icon:hover {
+  filter: invert(100%) sepia(3%) saturate(1%) hue-rotate(154deg) brightness(103%) contrast(102%);
+}
+
+.notification-wrapper {
+  transition: 0.1s linear;
+  font: normal 400 16px/24px "Jost";
+  position: fixed;
+  z-index: 1;
+  padding-top: 20vw;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.notification-wrapper .notification-popup {
+  display: flex;
+  background-color: #F4F4F2;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  width: 375px;
+}
+.notification-wrapper .notification-popup .notification-message {
+  flex-grow: 1;
+}
+.notification-wrapper .notification-popup .close-icon {
+  transition: 0.1s linear;
+}
+.notification-wrapper .notification-popup .close-icon:hover {
+  filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/header/style.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.header {
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #161412;
+  font: normal 400 13px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.header .account-icon {
+  position: relative;
+}
+.header .account-icon .product-counter {
+  position: absolute;
+  background: #161412;
+  color: #F4F4F2;
+  font: normal 300 10px/19px "Jost";
+  border-radius: 20px;
+  padding: 0 6px;
+  left: 15px;
+  top: 12px;
+}
+.header .logo {
+  width: 29px;
+  height: 30px;
+  background: url("./assets/img/logo.svg") no-repeat;
+}
+.header .navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+.header .navigation ul li {
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.header .navigation ul li:hover {
+  filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/footer/style.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.footer {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F4F2;
+  gap: 30px;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style-type: none;
+}
+.footer ul li {
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.footer ul li:hover {
+  filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+}
+.footer .footer-links-main {
+  color: #161412;
+  font: normal 400 13px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.footer .footer-links-additional {
+  color: #161412;
+  font: normal 400 10px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/catalog/style.scss ***!
+  \********************************************************************************************************************************************************************************************/
+.catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.catalog .catalog-wrapper {
+  max-width: inherit;
+  display: grid;
+  row-gap: 60px;
+  column-gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+  justify-content: start;
+}
+.catalog button.shadow {
+  margin: 40px auto;
+}
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/language-switcher/style.scss ***!
+  \******************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/h1/style.scss ***!
+  \***************************************************************************************************************************************************************************************/
+h1 {
+  font: normal 500 52px/63px "Cormorant";
+  color: #161412;
+}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/breadcrumbs/style.scss ***!
+  \************************************************************************************************************************************************************************************************/
+.breadcrumbs ul {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  font: normal 500 14px/20px "Cormorant";
+  list-style-type: none;
+  color: #161412;
+}
+.breadcrumbs ul li:first-child {
+  color: #65635F;
+}
+.breadcrumbs ul li:not(:last-child)::after {
+  content: "/";
+}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/navigation/style.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+.navigation {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/filters/style.scss ***!
+  \********************************************************************************************************************************************************************************************/
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.filters .filters-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/filters/filter/style.scss ***!
+  \***************************************************************************************************************************************************************************************************/
+.emptyCatalog {
+  display: flex;
+  margin: 10% 0;
+  justify-content: center;
+  font: normal 400 14px/19px "Jost";
+  color: #161412;
+}
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/filters/rangeFilter/style.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+.poped.filter {
+  display: flex;
+  position: absolute;
+  gap: 12px;
+  flex-direction: column;
+  width: 176px;
+  padding: 12px;
+  z-index: 1;
+  background: #F4F4F2;
+  transform: translate(-68px, -37px);
+  transition: 0.1s linear;
+}
+.poped.filter .price-filter-label {
+  padding-right: 24px;
+}
+.poped.filter .price-range-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font: normal 400 14px/19px "Jost";
+  color: #65635F;
+}
+
+.poped .price-filter-label {
+  background-image: url("./assets/img/chevron_up.svg");
+  background-position: 63% center;
+}
+
+.price-filter-label {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  color: #161412;
+  font: normal 400 13px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-right: 15px;
+  background-image: url(./assets/img/chevron_down.svg);
+  background-repeat: no-repeat;
+  background-position: 120% center;
+  background-size: 20px;
+  cursor: pointer;
+}
+
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+}
+
+.noUi-base,
+.noUi-connects {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Wrapper for all connect elements.
+ */
+.noUi-connects {
+  overflow: hidden;
+  z-index: 0;
+}
+
+.noUi-connect,
+.noUi-origin {
+  will-change: transform;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -webkit-transform-style: preserve-3d;
+  transform-origin: 0 0;
+  transform-style: flat;
+}
+
+/* Offset direction
+ */
+.noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
+  left: 0;
+  right: auto;
+}
+
+/* Give origins 0 height/width so they don't interfere with clicking the
+ * connect elements.
+ */
+.noUi-vertical .noUi-origin {
+  top: -100%;
+  width: 0;
+}
+
+.noUi-horizontal .noUi-origin {
+  height: 0;
+}
+
+.noUi-handle {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.noUi-touch-area {
+  height: 100%;
+  width: 100%;
+}
+
+.noUi-state-tap .noUi-connect,
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 5px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  height: 20px;
+  right: -17px;
+  top: -7px;
+}
+
+.noUi-vertical {
+  width: 18px;
+}
+
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  right: -6px;
+  bottom: -17px;
+}
+
+.noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+  left: -17px;
+  right: auto;
+}
+
+/* Styling;
+ * Giving the connect element a border radius causes issues with using transform: scale
+ */
+.noUi-target {
+  background: white;
+  border-radius: 1px;
+}
+
+.noUi-connects {
+  border-radius: 1px;
+}
+
+.noUi-connect {
+  background: #65635F;
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: ew-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: ns-resize;
+}
+
+.noUi-handle {
+  border: 2px solid #F4F4F2;
+  border-radius: 20px;
+  background: #161412;
+  cursor: default;
+}
+
+.noUi-active {
+  background: #65635F;
+}
+
+/* Handle stripes;
+ */
+.noUi-handle:before,
+.noUi-handle:after {
+  content: "";
+  display: none;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px;
+}
+
+.noUi-handle:after {
+  left: 17px;
+}
+
+.noUi-vertical .noUi-handle:before,
+.noUi-vertical .noUi-handle:after {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px;
+}
+
+.noUi-vertical .noUi-handle:after {
+  top: 17px;
+}
+
+/* Disabled state;
+ */
+[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+
+[disabled].noUi-target,
+[disabled].noUi-handle,
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+/* Base;
+ *
+ */
+.noUi-pips,
+.noUi-pips * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-pips {
+  position: absolute;
+  color: #999;
+}
+
+/* Values;
+ *
+ */
+.noUi-value {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.noUi-value-sub {
+  color: #ccc;
+  font-size: 10px;
+}
+
+/* Markings;
+ *
+ */
+.noUi-marker {
+  position: absolute;
+  background: #CCC;
+}
+
+.noUi-marker-sub {
+  background: #AAA;
+}
+
+.noUi-marker-large {
+  background: #AAA;
+}
+
+/* Horizontal layout;
+ *
+ */
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.noUi-value-horizontal {
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+.noUi-rtl .noUi-value-horizontal {
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px;
+}
+
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px;
+}
+
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px;
+}
+
+/* Vertical layout;
+ *
+ */
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+
+.noUi-value-vertical {
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding-left: 25px;
+}
+
+.noUi-rtl .noUi-value-vertical {
+  -webkit-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+}
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px;
+}
+
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px;
+}
+
+.noUi-tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  left: 50%;
+  bottom: 120%;
+}
+
+.noUi-vertical .noUi-tooltip {
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  top: 50%;
+  right: 120%;
+}
+
+.noUi-horizontal .noUi-origin > .noUi-tooltip {
+  -webkit-transform: translate(50%, 0);
+  transform: translate(50%, 0);
+  left: auto;
+  bottom: 10px;
+}
+
+.noUi-vertical .noUi-origin > .noUi-tooltip {
+  -webkit-transform: translate(0, -18px);
+  transform: translate(0, -18px);
+  top: auto;
+  right: 28px;
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/components/search/style.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.search-form {
+  position: relative;
+  display: flex;
+}
+.search-form .search-icon {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  margin-right: 12px;
+  filter: invert(38%) sepia(6%) saturate(311%) hue-rotate(2deg) brightness(97%) contrast(86%);
+}
+.search-form .search-icon:hover {
+  filter: none;
+}
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/modules/pages/catalogPage/style.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/global.scss (2) ***!
+  \**********************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  z-index: -100;
+}
+
+.dox-icon {
+  width: 60px;
+  height: 94px;
+  background: url("./assets/img/dox.svg") center no-repeat;
+}
+
+.search-icon {
+  transition: 0.1s linear;
+  width: 24px;
+  height: 24px;
+  background: url("./assets/img/search.svg") center no-repeat;
+}
+
+.account-icon {
+  width: 24px;
+  height: 24px;
+  background: url("./assets/img/account.svg") center no-repeat;
+}
+
+.close-icon {
+  width: 24px;
+  height: 24px;
+  background: url("./assets/img/close.svg") center no-repeat;
+}
+
+.chevron_down-icon {
+  width: 10px;
+  height: 20px;
+  background: url("./assets/img/chevron_down.svg") center no-repeat;
+}
+
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  width: auto;
+}
+.dropdown select {
+  color: #161412;
+  font: normal 400 13px/25px "Jost";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding-right: 24px;
+  appearance: none;
+  background-image: url("./assets/img/chevron_down.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 20px;
+}
+
+input {
+  transition: 0.1s linear;
+  min-width: 220px;
+  height: 40px;
+  display: inline-block;
+  background: #F4F4F2;
+  border: none;
+  box-sizing: border-box;
+  color: #161412;
+  padding: 0 12px 0 12px;
+  font: normal 400 15px/19px "Jost";
+  box-shadow: inset 0px -1px 0px #C4C4C4;
+}
+input:focus {
+  border: none;
+  outline: none;
+  box-shadow: inset 0px -2px 0px #65635F;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+button.shadow {
+  transition: 0.1s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  background: none;
+  color: #161412;
+  height: 32px;
+  font: normal 400 15px/19px "Jost";
+  border: 1px solid #C4C4C4;
+}
+button.shadow:hover {
+  color: #F4F4F2;
+  background-color: #161412;
+  border: 1px solid #161412;
+}
+
+button.system {
+  transition: 0.1s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 18px;
+  background: none;
+  color: #161412;
+  height: 20px;
+  font: normal 400 12px/24px "Jost";
+  border: 1px solid #C4C4C4;
+}
+button.system:hover {
+  color: #F4F4F2;
+  background-color: #161412;
+  border: 1px solid #161412;
+}
+
+.hide-content *:not(:nth-child(-n+9)) {
+  display: none;
+}
+
+.show-content > div {
+  display: flex;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.show {
+  opacity: 100;
+  pointer-events: initial;
+}
+
+.disable {
+  display: none !important;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=search]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}

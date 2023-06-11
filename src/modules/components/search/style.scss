@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+.search-form{
+    position: relative;
+    display: flex;
+    .search-icon{
+        position: absolute;
+        right: 0;
+        top: 8px;
+        margin-right: 12px;
+        filter: invert(38%) sepia(6%) saturate(311%) hue-rotate(2deg) brightness(97%) contrast(86%);
+        &:hover{
+            filter:none;
+        }
+    }
+}

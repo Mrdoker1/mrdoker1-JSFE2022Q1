@@ -1,0 +1,36 @@
+@import '../../../variables.scss';
+
+.footer{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $grey-3;
+    gap: 30px;
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        list-style-type: none;
+        li{
+            cursor: pointer;
+            transition: $transition-1;
+            &:hover{
+                filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+            }
+        }
+    }
+    .footer-links-main{
+        color: $black-1;
+        font: $jost-13-regular;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .footer-links-additional{
+        color: $black-1;
+        font: $jost-10-regular;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+}

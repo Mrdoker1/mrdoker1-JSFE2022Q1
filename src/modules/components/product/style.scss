@@ -1,0 +1,37 @@
+@import '../../../variables.scss';
+
+.product{
+    min-width: 370px;
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .product-image{
+        transition: $transition-2;
+        height: 370px;
+        width: 100%;
+        object-fit: cover;
+        &:hover{
+            filter: opacity(70%)
+        }
+        background-size: cover;
+    }
+    .product-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        .product-name{
+            font: $jost-13-regular;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .product-info{
+            color: $grey-1;
+            font: $jost-14-regular;
+        }
+        .product-price{
+            font: $jost-16-regular;
+            letter-spacing: 1px;
+        }
+    }
+}

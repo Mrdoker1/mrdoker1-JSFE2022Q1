@@ -1,0 +1,45 @@
+@import '../../../variables.scss';
+
+.header{
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $black-1;
+    font: $jost-13-regular;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    .account-icon{
+        position: relative;
+        .product-counter{
+            position: absolute;
+            background: $black-1;
+            color: $grey-3;
+            font: $jost-10-medium;
+            border-radius: 20px;
+            padding: 0 6px;
+            left: 15px;
+            top: 12px;
+        }
+    }
+    .logo{
+        width: 29px;
+        height: 30px;
+        background: url("./assets/img/logo.svg") no-repeat;
+    }
+    .navigation{
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            list-style-type: none;
+            li{
+                cursor: pointer;
+                transition: $transition-1;
+                &:hover{
+                    filter: invert(89%) sepia(0%) saturate(76%) hue-rotate(174deg) brightness(92%) contrast(84%);
+                }
+            }
+        }
+    }
+}
