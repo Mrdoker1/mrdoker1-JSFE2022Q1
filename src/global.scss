@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+//Roboto
+$roboto: normal 300 14px/19px 'Roboto';
+$roboto-small: normal 300 10px/19px 'Roboto';
+
+.wrapper{
+    font: $roboto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+}
