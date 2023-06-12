@@ -1,62 +1,69 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>NewsPortal</title>
-    <script defer src="index.js"></script><link href="style.css" rel="stylesheet"></head>
-    <body>
-        <header>
-            <h1>News Portal</h1>
-            <div class="hamburger" id="hamburger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>  
-            <div class="hamburger__list hide">
-                <div class="sources buttons"></div>
-            </div>
-        </header>
-        <main>
-            <div class="wrapper">
-                <div class="sources buttons"></div>
-                <div class="news"></div>
-            </div>
-        </main>
-        <footer>
-            <div class="footer-container">
-                <a href="https://rs.school/js/" class="rss"></a>
-                <div class="info">Updated: 04/07/2022</div>
-                <div><a href="https://github.com/Mrdoker1" class="github nav-link">Viachas Kul</a>© 2022 </div>
-
-            </div>
-        </footer>
-
-        <template id="sourceItemTemp">
-            <div class="source__item">
-                <span class="source__item-name"></span>
-            </div>
-        </template>
-
-        <template id="newsItemTemp">
-            <div class="news__item">
-                <div class="news__meta">
-                    <div class="news__meta-photo"></div>
-                    <ul class="news__meta-details">
-                        <li class="news__meta-author"></li>
-                        <li class="news__meta-date"></li>
-                    </ul>
-                </div>
-                <div class="news__description">
-                    <h2 class="news__description-title"></h2>
-                    <h3 class="news__description-source"></h3>
-                    <p class="news__description-content"></p>
-                    <p class="news__read-more">
-                        <a href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-        </template>
-    </body>
-</html>
+<head><script defer src="index.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve 'C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\html-webpack-plugin\lib\loader.js' in   'C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1'
+  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\html-webpack-plu  gin\lib\loader.js' in 'C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1'
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymou  s>:10:1)
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymou  s>:9:1)
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\NormalModuleFactory.js:434:22
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\webpack\lib\NormalModuleFactory.js:635:23
+      at C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\neo-async\async.js:2830:7
+      at done (C:\Users\Viachaslau\Documents\GitHub\mrdoker1-JSFE2022Q1\node_modules\neo-async\async.js:2925:13)
+  
+  - Compilation.js:2016 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:434 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/NormalModuleFactory.js:434:22
+  
+  - NormalModuleFactory.js:116 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:635 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/NormalModuleFactory.js:635:23
+  
+  - async.js:2830 
+    [mrdoker1-JSFE2022Q1]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [mrdoker1-JSFE2022Q1]/[neo-async]/async.js:2925:13
+  
+  - child-compiler.js:169 
+    [mrdoker1-JSFE2022Q1]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1196 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compiler.js:1196:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [mrdoker1-JSFE2022Q1]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1192 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compiler.js:1192:33
+  
+  - Compilation.js:2787 finalCallback
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compilation.js:2787:11
+  
+  - Compilation.js:3092 
+    [mrdoker1-JSFE2022Q1]/[webpack]/lib/Compilation.js:3092:11
+  
+  
+</pre>
